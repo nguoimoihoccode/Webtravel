@@ -1,0 +1,296 @@
+root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+}
+
+
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 1000px;
+
+    margin-right: 0;
+    margin-left: 0;
+    background: #ffffff;
+    margin-bottom: 100px;
+
+
+}
+
+.halongg {
+    width: 100%;
+    height: 730px;
+    background: url(./assets/images/556873365a49d10b82d40b66f50d5760c9eba9b2.png) no-repeat center;
+    background-size: cover;
+
+}
+
+.hot-tour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 1728px;
+    height: 8.16%;
+    margin: 0 30px 30px;
+    padding-top: 13%;
+    padding-bottom: 30px;
+
+    color: #ffffff;
+    font-family: Abhaya Libre ExtraBold, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 800;
+    /* line-height: 37.75px; */
+    /* text-align: center; */
+    white-space: nowrap;
+    z-index: 2;
+    font-family: "Playfair Display", serif;
+
+}
+
+.ha-long-bay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    margin: 0 30px 30px;
+
+    width: 392px;
+    height: 6.93%;
+    top: 29%;
+    left: 38.66%;
+    color: #ffffff;
+    font-family: Abhaya Libre ExtraBold, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 800;
+    /* line-height: 47.937px; */
+    /* text-align: center; */
+    white-space: nowrap;
+    z-index: 1;
+    font-family: "Playfair Display", serif;
+}
+
+
+
+.button-tmt {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: absolute;
+    justify-content: center;
+    width: 190px;
+    height: 49.346px;
+
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ffffff;
+    z-index: 11;
+    border-radius: 12px;
+    margin: 0px 30px;
+
+}
+
+button {
+    position: relative;
+    height: 65px;
+    width: 210px;
+    margin: 0 40px;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: #0d0d0d;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+
+
+button:before,
+button:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    filter: blur(30px);
+    opacity: 0.4;
+    transition: 0.6s;
+}
+
+button::before {
+    width: 60px;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translateX(-130px) skewX(-45deg);
+}
+
+button:after {
+    width: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translateX(-130px) skewX(-45deg);
+}
+
+button:hover:before,
+button:hover:after {
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+}
+
+button:hover {
+    color: #f2f2f2;
+}
+
+button:hover {
+    background: orange;
+}
+
+.take-me-there {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 190px;
+    height: 49.346px;
+    color: #ffffff;
+    font-family: Abhaya Libre ExtraBold, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 18.875px;
+    text-align: center;
+    z-index: 12;
+}
+
+.ha-long-bay,
+.hot-tour,
+.button-tmt {
+    left: 50%;
+    /* Đặt phần tử ở giữa màn hình theo chiều ngang */
+    transform: translateX(-50%);
+    /* Điều chỉnh để phần tử dịch chuyển đúng nửa chiều rộng của nó */
+}
+
+.button-tmt {
+    top: 50%;
+    /* Đặt phần tử ở giữa màn hình theo chiều dọc */
+    transform: translate(-50%, -50%);
+    /* Dịch chuyển phần tử theo cả chiều ngang và dọc để căn giữa */
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.container-kkk {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 2px;
+    position: absolute;
+    width: 338px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 1px;
+    overflow: hidden;
+    top: 39%;
+    left: 43%;
+}
+
+.button-reviews {
+    flex-shrink: 0;
+    position: relative;
+    width: 125px;
+    height: 26px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Abhaya Libre ExtraBold, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 800;
+    /* line-height: 23.594px; */
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+}
+
+.star {
+    flex-shrink: 0;
+    position: relative;
+    width: 18px;
+    height: 19px;
+    background: url(./assets/images/333ba035-50a8-4d10-b84f-9f44b30af379.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    /* padding: px auto; */
+    top: 25%;
+
+}
+
+
+
+.rating {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 85px;
+    height: 21px;
+    color: #ffffff;
+    font-family: Abhaya Libre ExtraBold, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 800;
+    /* line-height: 21px; */
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+    top: 10%;
+    left: 2%;
+}
+
+.main-container button a {
+    text-decoration: none;
+}

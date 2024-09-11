@@ -1,0 +1,33 @@
+.thank__you h1 {
+    font-size: 3.6rem;
+    font-family: var(--subtitle-font-name);
+}
+
+.thank__you {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.thank__you span {
+    display: inline-block;
+    font-size: 4rem;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.primary__btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.thank__you a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.khuvuc {
+    padding-bottom: 10%;
+    font-size: 100px;
+}
+
+.khuvuc h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hover-effect {
+    transition: filter 0.3s ease;
+    /* Thêm hiệu ứng transition */
+}
+
+.hover-effect:hover {
+    filter: brightness(70%);
+    /* Thay đổi độ sáng của ảnh khi hover */
+}

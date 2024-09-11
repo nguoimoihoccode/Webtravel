@@ -1,0 +1,239 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container-wcu {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container-wcu {
+  position: relative;
+
+  height: 1082px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+  margin-top: 10%;
+
+}
+
+.dong-bang {
+  position: absolute;
+  width: 42.48%;
+  height: 82.16%;
+  top: -0.18%;
+  left: 0;
+  background: url(./assets/images/2dcce9812b644a3b0c79c49d9887289c4359ec5f.png) no-repeat center;
+  background-size: cover;
+}
+
+.wcu-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 29px;
+  position: absolute;
+  width: 715px;
+  height: 21.44%;
+  top: 9.8%;
+  left: 50%;
+  padding: 10px 10px 10px 10px;
+  transform: translate(1.4%, 0);
+  z-index: 5;
+  overflow: hidden;
+}
+
+.why-choose-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 477px;
+  height: 48px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 6;
+  font-family: "Playfair Display", serif;
+}
+
+.high-quality-standards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 635px;
+  height: 136px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.091px;
+  text-align: left;
+  z-index: 7;
+  font-family: "Playfair Display", serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 32px;
+  position: absolute;
+  width: 479px;
+  height: 568px;
+  top: 21.9rem;
+  left: 1032px;
+  padding: 10px 10px 10px 10px;
+  z-index: 9;
+  overflow: hidden;
+
+}
+
+.dummy-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 459px;
+  height: 324px;
+  color: rgba(0, 0, 0, 0.51);
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 10;
+}
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: nowrap; */
+  /* flex-shrink: 0; */
+  /* gap: 10px; */
+  position: relative;
+  width: 191px;
+  height: 72px;
+  /* padding: 10px 10px 10px 10px; */
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #000000;
+  z-index: 11;
+  border-radius: 21px;
+  border-width: 2px;
+}
+
+
+
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 124px;
+  height: 29px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+  font-style: italic;
+}
+
+.line-wcu {
+  position: absolute;
+  width: 137.015px;
+  height: 1px;
+  top: 366px;
+  left: 873.992px;
+  background: url(./assets/images/e57b499f-b7c0-470d-a8e9-8b10776642bb.png) no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+
+.tagline {
+  position: absolute;
+  width: 25.46%;
+  height: 29.21%;
+  top: 63.68%;
+  left: 23.84%;
+  background: #29502d;
+  z-index: 1;
+}
+
+.rectangle-wcu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(148, 171, 142, 0);
+  z-index: 2;
+}
+
+.rectangle-2-wcu {
+  position: absolute;
+  width: 41.59%;
+  height: 86.08%;
+  top: 0;
+  left: 58.41%;
+  background: url(./assets/images/7f6ae42bf7cf968327be7aefa4a4f2aad46323fd.png) no-repeat center;
+  background-size: cover;
+  opacity: 0.5;
+  filter: blur(2.9px);
+  z-index: 4;
+
+}
+
+.memorable-journeys {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 256px;
+  height: 79.75%;
+  top: 13.61%;
+  left: 7.73%;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38.727px;
+  text-align: left;
+  z-index: 3;
+}
+
+.contact-us a {
+  text-decoration: none;
+}

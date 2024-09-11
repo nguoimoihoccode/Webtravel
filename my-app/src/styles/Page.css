@@ -1,0 +1,99 @@
+.image {
+    display: flex;
+}
+
+.icon a {
+    color: white;
+}
+
+.icon a:hover {
+    color: gray;
+}
+
+.form {
+    display: inline-block;
+}
+
+.divider {
+    height: 95%;
+    width: 1px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.custom-btn {
+    border-color: white;
+    color: black;
+}
+
+.custom-btn:hover {
+    background-color: rgba(211, 210, 210, 0.578);
+    color: rgb(0, 0, 0);
+}
+
+.footer ul {
+    display: inline-block;
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ui-datepicker {
+    background-color: rgb(240, 245, 247);
+}
+
+.ui-datepicker {
+    width: 220px;
+    font-size: 14px;
+}
+
+.ui-datepicker-calendar {
+    font-size: 14px;
+    color: black;
+}
+
+.ui-datepicker-calendar tbody td {
+    padding: 8px;
+    color: black;
+}
+
+.ui-datepicker-calendar tbody td a {
+    color: black;
+    text-decoration: none;
+}
+
+.pt {
+    width: 300px;
+    height: 380px;
+}
+
+.horizontal-line {
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.square-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    object-fit: cover;
+}
+
+.font-times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* .page-container {
+    padding-top: 23%;
+    padding-left: 5%;
+    padding-right: 5%;
+} */
